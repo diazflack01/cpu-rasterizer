@@ -4,4 +4,4 @@ project(cpu-rasterizer VERSION 1.0
         DESCRIPTION "CPU Rasterizer"
         LANGUAGES CXX)
 
-add_executable(cpu-rasterizer main.cpp)
+add_executable(cpu-rasterizer main.cpp TGAImage.cpp TGAImage.hpp)
